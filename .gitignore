@@ -1,0 +1,5 @@
+debug.log
+output.txt
+.env/
+.idea/
+__pycache__/
