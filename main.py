@@ -170,13 +170,6 @@ class Crawler:
             sleep_period = utils.get_sleep_period()
             await asyncio.sleep(sleep_period)
 
-    def print_found_flights(self):
-        """
-        Prints current found flights
-        """
-        for value in self.flights.values():
-            print('-' * 40 + '\n' + str(value))
-
 
 async def main():
     """
